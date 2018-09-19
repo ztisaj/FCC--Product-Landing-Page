@@ -246,7 +246,7 @@ p {
     }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 725px) {
     #header {
         height: 60px;
         background-color: #a3dcb4;
@@ -259,12 +259,12 @@ p {
     }
     
     h1 {
-        font-size: 20px;
+        font-size: 7vw;
         margin-bottom: 20px;
     }
     
     h1:hover {
-        font-size: 30px;
+        font-size: 8vw;
     }
     
     #nav-bar {
@@ -274,12 +274,12 @@ p {
     }
     
     .nav-link {
-        font-size: 12px;
+        font-size: 3vw;
         margin: auto 0 auto 10px;
     }
     
     .nav-link:hover {
-        font-size: 16px;
+        font-size: 4vw;
     }
     
     #main {
