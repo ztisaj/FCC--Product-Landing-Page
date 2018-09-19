@@ -158,95 +158,8 @@ p {
 
 }
 
-@media (max-width: 1025px) {
-    #header {
-        border-bottom: #ccc solid 1px;
-    }
+@media (max-width: 825px) {
     
-    #nav-bar {
-        flex-direction: column;
-        justify-content: flex-end;
-        padding-top: 5px;
-    }
-    
-    .nav-link {
-        font-size: 18px;
-        margin: 5px 0 auto auto;
-    }
-    
-    .nav-link:hover {
-        font-size: 20px;
-    }
-    
-    #header-img:hover {
-        width: 82px;
-        height: 82px;
-    }
-    
-    #main {
-        background-color: #bbb;
-
-    }
-    
-    #gallery {
-        height: 300px;
-        background-color: #ddd;
-        margin-bottom: 10px;
-    }
-    
-    .gallery-img {
-        width: 25%;
-        height: 200px;
-        opacity: 0.9;
-        border-radius: 50%;
-        border: #fff solid 1px;
-}
-
-    .gallery-img:hover {
-        opacity: 1;
-        width: 30%;
-        height: 220px;
-        border-radius: 0;
-    }
-    
-    #video {
-        height: 300px;
-        width: 50%;
-        padding: 100px;
-        margin: auto;
-    }
-    
-    #form {
-        background-color: #666;
-        width: 100%;
-        border: none;
-        border-radius: 0px;
-        margin-top: 0px;
-        color: #fff;
-        padding-bottom: 20px;
-        margin-bottom: 0px;
-    }
-    
-    span {
-        color: #fff;
-        font-weight: 100;
-        margin-bottom: 10px;
-        font-size: 24px;
-    }
-    
-    #submit {
-        background-color: #c03228;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 100;
-    }
-    
-    #footer {
-        margin-top: 0px;
-    }
-}
-
-@media (max-width: 725px) {
     #header {
         height: 60px;
         background-color: #a3dcb4;
@@ -259,12 +172,12 @@ p {
     }
     
     h1 {
-        font-size: 7vw;
+        font-size: 6vw;
         margin-bottom: 20px;
     }
     
     h1:hover {
-        font-size: 8vw;
+        font-size: 6.5vw;
     }
     
     #nav-bar {
@@ -274,12 +187,12 @@ p {
     }
     
     .nav-link {
-        font-size: 3vw;
+        font-size: 2vw;
         margin: auto 0 auto 10px;
     }
     
     .nav-link:hover {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     
     #main {
@@ -299,7 +212,8 @@ p {
     }
     
     .gallery-img {
-        width: 80%;
+        width: 50%;
+        height: 30vh;
         margin: 4% 10%;
         border-radius: 0px;
     }
@@ -324,7 +238,7 @@ p {
         border-top: #ccc solid 2px;
         padding-top: 20px;
         padding-bottom: 20px;
-
+        width: 80%;
     }
     
     span {
@@ -338,6 +252,7 @@ p {
         border: #aaa solid 1px;
         border-radius: 2px;
         font-size: 14px;
+        width: 40%;
     }
     
     p {
